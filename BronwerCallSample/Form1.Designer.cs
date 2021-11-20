@@ -78,9 +78,10 @@ namespace BronwerCallSample
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 315);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 12);
+            this.label2.Size = new System.Drawing.Size(211, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "エンコード後";
+            this.label2.Text = "エンコード後(引数の区切りとし改行をセット)";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 

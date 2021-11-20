@@ -21,7 +21,7 @@ namespace BronwerCallSample
             string[] cmds = System.Environment.GetCommandLineArgs();
             foreach(string c in cmds)
             {
-                textBox1.Text += c + "\r\n\r\n";
+                textBox1.Text += c + " ";
 
                 string urlDec = System.Web.HttpUtility.UrlDecode(c + "\r\n\r\n");
                 textBox2.Text += urlDec;
@@ -38,6 +38,11 @@ namespace BronwerCallSample
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
